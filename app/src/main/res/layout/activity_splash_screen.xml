@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/primary"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".SplashScreen">
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/ic_saturn">
+
+    </ImageView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Planeto"
+        android:textSize="25sp"
+        android:gravity="center"
+        android:letterSpacing="0.1"
+        android:textStyle="bold"
+        android:fontFamily="@font/poppins_semibold">
+
+    </TextView>
+    <View
+        android:layout_width="30dp"
+        android:layout_height="1dp"
+        android:layout_marginTop="5dp"
+        android:background="#03A9F4"
+        android:orientation="vertical">
+
+    </View>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Book your ride"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:letterSpacing="0.1"
+        android:textStyle="bold"
+        android:fontFamily="@font/poppins_semibold">
+
+    </TextView>
+
+
+
+</LinearLayout>
